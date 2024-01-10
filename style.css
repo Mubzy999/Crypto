@@ -1,0 +1,59 @@
+*{
+    background-image: url(20230627_075135-01.jpeg);
+    background-repeat: no-repeat;
+    font-family:Arial;
+    text-align: center;
+    background-size: 100% ;
+}
+h1{
+    color: cyan;
+    text-shadow: 1px 3px 2px black;
+}
+
+h4{
+    background: none;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+button{
+    background-image: linear-gradient(to top,
+     rgb(82, 25, 238) 0%,
+     rgb(0, 204, 255) 70% );
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin:20px ;
+    height: 4rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-shadow: 2px 3px 4px black;
+    animation: slide 2s ease-in-out 1s infinite normal both;
+    
+}
+
+@keyframes slide {
+    0%{
+        transform: translateY(-15px);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+
+    100%{
+        transform: translateY(-15px);
+    }
+    
+}
+
+p{
+    background: none;
+    color: white;
+    font-size: 1em;
+    text-shadow: 1px 2px 2px black;
+    font-family: Arial;
+    padding: 5px;
+}
